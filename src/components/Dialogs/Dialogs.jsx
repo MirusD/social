@@ -1,6 +1,6 @@
 import cls from './Dialogs.module.css'
 
-const Dialogs = (props) => {
+const Dialogs = () => {
     return (
         <div className={cls.dialogs}>
             Dialogs

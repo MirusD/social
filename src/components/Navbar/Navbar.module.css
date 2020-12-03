@@ -3,16 +3,23 @@
     grid-column-end: 2;
     grid-row-start: 2;
     grid-row-end: 3;
+    padding: 20px;
 }
 
 .item {
     cursor: pointer;
+    margin-bottom: 10px;
 }
 
-.item:hover {
+.item a {
+    color: black;
+    text-decoration: none;
+}
+
+.item a:hover {
     color: orange;
 }
 
-.item.active {
+.item a.active {
     color: red;
 }
