@@ -8,16 +8,16 @@ const Navbar = () => {
                 <NavLink to="/profile" activeClassName={cls.active}>Profile</NavLink>
             </div>
             <div className={cls.item}>
-                <NavLink to="dialogs" activeClassName={cls.active}>Messages</NavLink>
+                <NavLink to="/dialogs" activeClassName={cls.active}>Messages</NavLink>
             </div>
             <div className={cls.item}>
-                <a>News</a>
+                <NavLink to="/news" activeClassName={cls.active}>News</NavLink>
             </div>
             <div className={cls.item}>
-                <a>Music</a>
+                <NavLink to="/music" activeClassName={cls.active}>Music</NavLink>
             </div>
             <div className={cls.item}>
-                <a>Settings</a>
+                <NavLink to="/settings" activeClassName={cls.active}>Settings</NavLink>
             </div>
         </nav>
     );

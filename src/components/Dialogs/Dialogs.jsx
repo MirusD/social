@@ -3,7 +3,7 @@ import cls from './Dialogs.module.css'
 const Dialogs = () => {
     return (
         <div className={cls.dialogs}>
-            Dialogs
+            <h2>Dialogs</h2>
         </div>    
     );
 }
