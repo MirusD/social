@@ -1,7 +1,7 @@
 import cls from './Header.module.css'
 import logo from './img/logo.svg'
 
-const Header = () => {
+const Header = (props) => {
     return (
         <header className={cls.header}>
             <span>

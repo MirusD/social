@@ -1,6 +1,4 @@
-import cls from './Music.module.css'
-
-const Music = ()=> {
+const Music = (props)=> {
     return (
         <div>
             <h2>Music</h2>

@@ -1,16 +1,18 @@
-import cls from './Posts.module.css';
 import Post from './Post/Post'
 
-const Posts = () => {
+const Posts = (props) => {
+
+    let postsElements = props.postsData.map(p => <Post message={p.message} likesCount={p.likesCount}  />)
+
     return (
         <div>
-            My posts
+            <span>My posts</span>
             <div>
-                New post
+                <textarea></textarea>
+                <button>Add post</button>
             </div>
             <div>
-                <Post message="Hi, how are you" likesCount="10"/>
-                <Post message="It's my first post" likesCount="5"/>
+                { postsElements}
             </div>
         </div>
     );
